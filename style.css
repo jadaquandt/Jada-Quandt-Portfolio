@@ -1,0 +1,64 @@
+body {
+    height: 120vh;
+    font-family: 'Roboto', sans-serif;
+    background-color: #fc682a;
+    background-size: cover;
+    background-image:url('/Portfolio-Files/background.jpg');
+    width:  100%;
+    color: #001d4f;
+}
+
+span {
+    font-style: italic;
+}
+
+h1 {
+    font-family: 'Bebas Neue', cursive;
+}
+
+nav {
+    font-family: 'Bebas Neue', cursive;
+}
+
+a {
+    color: #008795;
+}
+
+#container {
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.list-group-item {
+    font-size: 15px;
+    padding: 2px;
+    background:rgba(240, 104, 42, 0.7);
+}
+
+.card {
+    background:rgba(255, 255, 255, 0);
+    border: 0;
+}
+
+#cardDiv {
+    height: 80vh;
+}
+
+.socialIcons {
+    height: 35px;
+    padding: 2px;
+}
+
+
+#fancy {
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#welcome {
+    font-family: 'Bebas Neue', cursive;
+}
