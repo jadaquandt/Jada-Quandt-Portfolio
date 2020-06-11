@@ -73,3 +73,14 @@ a {
     font-family: 'Roboto', sans-serif;
     font-size: 10px;
 }
+
+#skillsH2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    text-decoration: underline;
+    margin-left: 10px;
+}
+
+[class*=" devicon-"], [class^=devicon-] {
+    font-size: 55px;
+}
