@@ -9,32 +9,27 @@
     <link rel = "stylesheet" type = "text/css" href = "style.css"/>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+     <!-- Dev Icons -->
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <title>Jada Quandt</title>
 </head>
-<header>
 <!-- Nav bar -->
-<nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #008795;">
+<header>
+<nav class="navbar navbar-dark" style="background-color: #008795;">
   <a class="navbar-brand" href="/index.html">Jada Quandt</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-    <div class="navbar-nav">
       <a class="nav-item nav-link active" href="/index.html">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="/portfolio.html">Portfolio</a>
+      <a class="nav-item nav-link" href="#projects">Projects</a>
       <a class="nav-item nav-link" href="/aboutme.html">About Me</a>
-    </div>
-  </div>
 </nav>
 </header>
 <body>
 <!-- Content -->
-    <div id="container" class="container">
+<div id="container" class="container">
         <div id="welcome">
       <h1 id="introH1">Hello! I'm Jada Quandt </h1>
-      <h2 id="whatamI">and I'm a Front-End Developer</h2>
+      <h2 id="whatamI">and I'm a Software Developer</h2>
         <div id="buttondiv" class="center">
-      <a href="/portfolio.html"><button class="btn btn-dark" style="background-color: #fc682a;">Portfolio</button></a>
+      <a href="#projects"><button class="btn btn-dark" style="background-color: #fc682a;">Projects</button></a>
       <a href="/Portfolio-Files/jada_quandt_resume.pdf" target="_blank"><button class="btn btn-dark" style="background-color: #006e93;">Resume</button></a>
       <a href="/aboutme.html"><button class="btn btn-dark" style="background-color: #001d4f;">About</button></a>
         </div>
@@ -47,6 +42,64 @@
        </div>
         </div>
     </div>
+<!-- Projects Section -->
+    <div id="projects">
+      <h1 id="portfolioIntro" class="text-center">Projects</h1>
+<!-- Skills Section -->
+<h2 id="skillsH2">Skills</h2>
+<div class="text-center">
+<i class="devicon-bootstrap-plain-wordmark"></i>
+<i class="devicon-css3-plain-wordmark"></i>
+<i class="devicon-express-original-wordmark"></i>
+<i class="devicon-github-plain-wordmark"></i>
+<i class="devicon-html5-plain-wordmark"></i>
+<i class="devicon-javascript-plain"></i>
+<i class="devicon-nodejs-plain-wordmark"></i>
+<i class="devicon-photoshop-line"></i>
+<i class="devicon-postgresql-plain-wordmark"></i>
+<i class="devicon-react-original-wordmark"></i>
+<hr>
+</div>
+<!-- Projects -->
+<div id="cardDiv" class="container justify-content-center mx-auto my-3">
+<!-- React Project -->
+    <div>
+      <img src="/Portfolio-Files/react.gif" class="card-img-top" alt="gif of react">
+        <h5 class="card-title">War</h5>
+        <ul class="list-group list-group-flush">
+          <span><li class="list-group-item">Built a space-themed version of the playing card game "war" as part of a React.js & Redux project for DigitalCrafts.</li> </span>
+          <li class="list-group-item">The scope of this class project required at least 6 React components, 5 Redux actions, and use of local state.  </li>
+          <li class="list-group-item">Built with: React.js, Redux, Javascript, CSS, and Material UI</li>
+        </ul>
+        <a href="https://github.com/jadaquandt/React-War-in-Space" class="btn btn-dark mt-2" style="background-color: #fc682a;" target="_blank">Code</a>
+        <a href="https://react-war.vercel.app/home" class="btn btn-dark mt-2" style="background-color: #008795;" target="_blank">Live Site</a>
+    </div>
+<!-- GTL Project -->
+    <div>
+      <img src="/Portfolio-Files/gtl.gif" class="card-img-top" alt="gif of gtl">
+        <h5 class="card-title">Gym-Tan-Laundry</h5>
+        <ul class="list-group list-group-flush">
+          <span><li class="list-group-item">Member of a 5-person development team building a playlist development site that allows users to create a randomized playlist based on “Gym,” “Tan,” and “Laundry” categories.</li> </span>
+          <li class="list-group-item">Responsibilities included assisting with Front-End design using EJS, learning and implementing Spotify’s API parameters, writing the functions in JavaScript that populated and rendered playlists.
+          </li>
+          <li class="list-group-item">Built with: HTML, CSS, Bootstrap, JavaScript, RESTful API, Axios, Express, EJS, Passport JS</li>
+        </ul>
+        <a href="https://github.com/digitalcrafts-atl/Gym-Tan-Laundry" class="btn btn-dark mt-2" style="background-color: #fc682a;" target="_blank">Code</a>
+        <a href="https://gym-tan-laundry.herokuapp.com/" class="btn btn-dark mt-2" style="background-color: #008795;" target="_blank">Live Site</a>
+      </div>
+<!-- Twitch Lyfe Project -->
+    <div>
+      <img src="/Portfolio-Files/twitch.gif" class="card-img-top " alt="gif of twitch life">
+        <h5 class="card-title">Twitch Lyfe</h5>
+        <ul class="list-group list-group-flush">
+          <span><li class="list-group-item">Member of a 6-person development team building a Twitch website to feature the top streamers, top streamed games, and a search page to search the IGDB API to learn more about games.</li></span>
+          <li class="list-group-item">Responsibilities included designing and assembling a fully mobile-responsive layout and creating the search page utilizing Javascript to render searches from the IGDB API
+          </li>
+          <li class="list-group-item">Built with: HTML, CSS, Bootstrap, JavaScript, RESTful API, and Axios</li>
+        </ul>
+        <a href="https://github.com/jadaquandt/Twitch-Lyfe-Website" class="btn btn-dark mt-2" style="background-color: #fc682a;" target="_blank">Code</a>
+        <a href="http://twitchstreamlyfe.com.s3-website.us-east-1.amazonaws.com/index.html" class="btn btn-dark mt-2" style="background-color: #008795;" target="_blank">Live Site</a>
+  </div>
 <!-- My JS File
 <script src="index.js"></script> -->
 <!-- Bootstrap JS files -->

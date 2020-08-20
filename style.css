@@ -1,9 +1,8 @@
 body {
     height: 120vh;
     font-family: 'Roboto', sans-serif;
-    background-color: #fc682a;
+    background-color: grey;
     background-size: cover;
-    background-image:url('/Portfolio-Files/background.jpg');
     width:  100%;
     color: #001d4f;
 }
@@ -24,15 +23,14 @@ a {
     color: #008795;
 }
 
+.nav-item {
+    color: white;
+}
+
 .list-group-item {
     font-size: 15px;
     padding: 2px;
     background:rgba(240, 104, 42, 0.7);
-}
-
-.card {
-    background:rgba(255, 255, 255, 0);
-    border: 0;
 }
 
 .socialIcons {
@@ -41,7 +39,7 @@ a {
 }
 
 #container {
-    height: 80%;
+    height: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,7 +47,8 @@ a {
 }
 
 #cardDiv {
-    height: 80vh;
+    /* height: 10vh; */
+    width: 50%
 }
 
 #fancy {
@@ -83,4 +82,11 @@ a {
 
 [class*=" devicon-"], [class^=devicon-] {
     font-size: 55px;
+    color: pink;
+}
+
+#projects {
+    background-color: black;
+    width: 100%;
+    height: 30%;
 }
