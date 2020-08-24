@@ -33,6 +33,11 @@ a {
     background:rgba(240, 104, 42, 0.7);
 }
 
+.gif {
+    width: 45vw;
+    justify-content: center;
+}
+
 .socialIcons {
     height: 40px;
     padding: 2px;
@@ -48,7 +53,11 @@ a {
 
 #cardDiv {
     /* height: 10vh; */
-    width: 50%
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #fancy {
@@ -88,5 +97,5 @@ a {
 #projects {
     background-color: black;
     width: 100%;
-    height: 30%;
+    height: 100%;
 }
