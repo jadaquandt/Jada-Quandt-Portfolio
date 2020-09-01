@@ -11,97 +11,116 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
      <!-- Dev Icons -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
     <title>Jada Quandt</title>
 </head>
 <!-- Nav bar -->
 <header>
-<nav class="navbar navbar-dark" style="background-color: #008795;">
+<nav class="navbar navbar-dark navbar-fixed-top bg-dark">
+  <div class="container-fluid">
   <a class="navbar-brand" href="/index.html">Jada Quandt</a>
       <a class="nav-item nav-link active" href="/index.html">Home <span class="sr-only">(current)</span></a>
       <a class="nav-item nav-link" href="#projects">Projects</a>
-      <a class="nav-item nav-link" href="/aboutme.html">About Me</a>
+      <a class="nav-item nav-link" href="#about">About Me</a>
+  </div>
 </nav>
 </header>
 <body>
+<main>
 <!-- Content -->
-<div id="container" class="container">
+<div id="welcomeContainer">
         <div id="welcome">
+          <img src="/Portfolio-Files/jada_quandt_square.jpg" id="headshot" alt="jada quandt photo">
       <h1 id="introH1">Hello! I'm Jada Quandt </h1>
       <h2 id="whatamI">and I'm a Software Developer</h2>
         <div id="buttondiv" class="center">
-      <a href="#projects"><button class="btn btn-dark" style="background-color: #fc682a;">Projects</button></a>
+      <a href="#projects"><button class="btn btn-dark" style="background-color: #fd9301;">Projects</button></a>
       <a href="/Portfolio-Files/jada_quandt_resume.pdf" target="_blank"><button class="btn btn-dark" style="background-color: #006e93;">Resume</button></a>
-      <a href="/aboutme.html"><button class="btn btn-dark" style="background-color: #001d4f;">About</button></a>
+      <a href="#about"><button class="btn btn-dark" style="background-color: #001d4f;">About</button></a>
         </div>
         <div id="contactContainer" class="text-center mt-3">
           <hr>
-          <a href="mailto:jadaquandt@gmail.com"><img class="socialIcons" src="/Portfolio-Files/gmaillogo.png" alt="Email"></a>
-          <a href="https://github.com/jadaquandt" target="_blank"><img class="socialIcons" src="/Portfolio-Files/githublogo.png" alt="Github"></a>
-          <a href="https://www.linkedin.com/in/jadaquandt/" target="_blank"><img class="socialIcons" src="/Portfolio-Files/linkedinlogo.png" alt="LinkedIn"></a>
-          <a href="https://twitter.com/jadaquandt" target="_blank"><img class="socialIcons" src="/Portfolio-Files/twitterlogo.png" alt="Twitter"></a>
+          <a href="mailto:jadaquandt@gmail.com"><i class="devicon-google-plain"></i></a>
+          <a href="https://github.com/jadaquandt" target="_blank"><i class="devicon-github-plain"></i></a>
+          <a href="https://www.linkedin.com/in/jadaquandt/" target="_blank"><i class="devicon-linkedin-plain"></i></a>
+          <a href="https://twitter.com/jadaquandt" target="_blank"><i class="devicon-twitter-plain"></i></a>
        </div>
         </div>
-    </div>
+</div>
 <!-- Projects Section -->
-  <div id="projects">
-      <h1 id="portfolioIntro" class="text-center">Projects</h1>
+  <div id="projects" class="projects text-center">
+      <h1 id="portfolioIntro" class="text-center mt-2">Projects</h1>
 <!-- Skills Section -->
 <h2 id="skillsH2">Skills</h2>
-<div class="text-center">
-<i class="devicon-bootstrap-plain-wordmark"></i>
-<i class="devicon-css3-plain-wordmark"></i>
-<i class="devicon-express-original-wordmark"></i>
-<i class="devicon-github-plain-wordmark"></i>
-<i class="devicon-html5-plain-wordmark"></i>
-<i class="devicon-javascript-plain"></i>
-<i class="devicon-nodejs-plain-wordmark"></i>
-<i class="devicon-photoshop-line"></i>
-<i class="devicon-postgresql-plain-wordmark"></i>
-<i class="devicon-react-original-wordmark"></i>
+<div class="project text-center">
+  <i class="devicon-bootstrap-plain-wordmark"></i>
+  <i class="devicon-css3-plain-wordmark"></i>
+  <i class="devicon-express-original-wordmark"></i>
+  <i class="devicon-github-plain-wordmark"></i>
+  <i class="devicon-heroku-original-wordmark"></i>
+  <i class="devicon-html5-plain-wordmark"></i>
+  <i class="devicon-javascript-plain"></i>
+  <i class="devicon-nodejs-plain-wordmark"></i>
+  <i class="devicon-npm-original-wordmark"></i>
+  <i class="devicon-photoshop-line"></i>
+  <i class="devicon-postgresql-plain-wordmark"></i>
+  <i class="devicon-react-original-wordmark"></i>
+  <i class="devicon-sequelize-plain-wordmark"></i>
 <hr>
 </div>
-<!-- Projects -->
-<div id="cardDiv" class="container">
 <!-- React Project -->
-    <div>
+    <div class="project mb-3">
       <img src="/Portfolio-Files/react.gif" class="gif" alt="gif of react">
         <h5 class="card-title">War</h5>
-        <ul class="list-group list-group-flush">
-          <span><li class="list-group-item">Built a space-themed version of the playing card game "war" as part of a React.js & Redux project for DigitalCrafts.</li> </span>
-          <li class="list-group-item">The scope of this class project required at least 6 React components, 5 Redux actions, and use of local state.  </li>
-          <li class="list-group-item">Built with: React.js, Redux, Javascript, CSS, and Material UI</li>
-        </ul>
-        <a href="https://github.com/jadaquandt/React-War-in-Space" class="btn btn-dark mt-2" style="background-color: #fc682a;" target="_blank">Code</a>
+          <span><p>Built a space-themed version of the playing card game "war" as part of a React.js & Redux project for DigitalCrafts.</p></span>
+          <p>The scope of this class project required at least 6 React components, 5 Redux actions, and use of local state.</p>
+          <p>Built with: React.js, Redux, Javascript, CSS, and Material UI</p>
+        <a href="https://github.com/jadaquandt/React-War-in-Space" class="btn btn-dark mt-2" style="background-color: #fd9301;" target="_blank">Code</a>
         <a href="https://react-war.vercel.app/home" class="btn btn-dark mt-2" style="background-color: #008795;" target="_blank">Live Site</a>
     </div>
 <!-- GTL Project -->
-    <div>
+    <div class="project mb-3">
       <img src="/Portfolio-Files/gtl.gif" class="gif" alt="gif of gtl">
         <h5 class="card-title">Gym-Tan-Laundry</h5>
-        <ul class="list-group list-group-flush">
-          <span><li class="list-group-item">Member of a 5-person development team building a playlist development site that allows users to create a randomized playlist based on “Gym,” “Tan,” and “Laundry” categories.</li> </span>
-          <li class="list-group-item">Responsibilities included assisting with Front-End design using EJS, learning and implementing Spotify’s API parameters, writing the functions in JavaScript that populated and rendered playlists.
-          </li>
-          <li class="list-group-item">Built with: HTML, CSS, Bootstrap, JavaScript, RESTful API, Axios, Express, EJS, Passport JS</li>
-        </ul>
-        <a href="https://github.com/digitalcrafts-atl/Gym-Tan-Laundry" class="btn btn-dark mt-2" style="background-color: #fc682a;" target="_blank">Code</a>
+          <span><p>Member of a 5-person development team building a playlist development site that allows users to create a randomized playlist based on “Gym,” “Tan,” and “Laundry” categories.</p></span>
+          <p>Responsibilities included assisting with Front-End design using EJS, learning and implementing Spotify’s API parameters, writing the functions in JavaScript that populated and rendered playlists.</p>
+          <p>Built with: HTML, CSS, Bootstrap, JavaScript, RESTful API, Axios, Express, EJS, Passport JS</p>
+        <a href="https://github.com/digitalcrafts-atl/Gym-Tan-Laundry" class="btn btn-dark mt-2" style="background-color: #fd9301;" target="_blank">Code</a>
         <a href="https://gym-tan-laundry.herokuapp.com/" class="btn btn-dark mt-2" style="background-color: #008795;" target="_blank">Live Site</a>
   </div>
 <!-- Twitch Lyfe Project -->
-    <div>
+      <div class="project">
       <img src="/Portfolio-Files/twitch.gif" class="gif " alt="gif of twitch life">
         <h5 class="card-title">Twitch Lyfe</h5>
-        <ul class="list-group list-group-flush">
-          <span><li class="list-group-item">Member of a 6-person development team building a Twitch website to feature the top streamers, top streamed games, and a search page to search the IGDB API to learn more about games.</li></span>
-          <li class="list-group-item">Responsibilities included designing and assembling a fully mobile-responsive layout and creating the search page utilizing Javascript to render searches from the IGDB API
-          </li>
-          <li class="list-group-item">Built with: HTML, CSS, Bootstrap, JavaScript, RESTful API, and Axios</li>
-        </ul>
-        <a href="https://github.com/jadaquandt/Twitch-Lyfe-Website" class="btn btn-dark mt-2" style="background-color: #fc682a;" target="_blank">Code</a>
+          <span><p>Member of a 6-person development team building a Twitch website to feature the top streamers, top streamed games, and a search page to search the IGDB API to learn more about games.</p></span>
+          <p>Responsibilities included designing and assembling a fully mobile-responsive layout and creating the search page utilizing Javascript to render searches from the IGDB API</p>
+          <p>Built with: HTML, CSS, Bootstrap, JavaScript, RESTful API, and Axios</p>
+        <a href="https://github.com/jadaquandt/Twitch-Lyfe-Website" class="btn btn-dark mt-2" style="background-color: #fd9301;" target="_blank">Code</a>
         <a href="http://twitchstreamlyfe.com.s3-website.us-east-1.amazonaws.com/index.html" class="btn btn-dark mt-2" style="background-color: #008795;" target="_blank">Live Site</a>
+      </div>
+      <hr>
+</div>
+<!-- About Me -->
+<div id="about">
+    <h1 class="mx-auto d-flex justify-content-center mt-3">About Me</h1>
+    <div id="aboutContainer" class="mx-auto mt-1 d-flex">
+      <div class="text-center p-5"><p>I mentioned already that I'm developer, but I am also a hobby<a href="https://jadaquandtphoto.pixieset.com/"> photographer</a>, eclectic <a href="https://open.spotify.com/user/jayduhdaruh">music fan</a>, Stephen King stan, and yogi. I also have a rescue dog named Fancy <span>(like the <a href="https://www.youtube.com/watch?v=1XkcrHz26CI" target="_blank">Bobbie Gentry song</a>)</span> and a husband named Josh.</p>
+    </div>
+      <div id="imageDiv" class="d-flex mr-5 align-self-center">
+        <img id="fancy" src="/Portfolio-Files/fancy.jpg" alt="">
+      </div>
     </div>
 </div>
+<!-- Contact Buttons -->
+<div id="contactContainer" class="text-center">
+  <hr class="m-0 p-0">
+  <p class="m-1 p-0">Don't be a stranger. Contact me:</p>
+  <a href="mailto:jadaquandt@gmail.com"><i class="devicon-google-plain"></i></a>
+  <a href="https://github.com/jadaquandt" target="_blank"><i class="devicon-github-plain"></i></a>
+  <a href="https://www.linkedin.com/in/jadaquandt/" target="_blank"><i class="devicon-linkedin-plain"></i></a>
+  <a href="https://twitter.com/jadaquandt" target="_blank"><i class=" devicon-twitter-plain"></i></a>
 </div>
+</main>
 <!-- My JS File
 <script src="index.js"></script> -->
 <!-- Bootstrap JS files -->
