@@ -12,19 +12,26 @@
      <!-- Dev Icons -->
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+    <!-- Email icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Jada Quandt</title>
 </head>
-<!-- Nav bar -->
-<header>
-<nav class="navbar navbar-dark navbar-fixed-top bg-dark">
-  <div class="container-fluid">
-  <a class="navbar-brand" href="/index.html">Jada Quandt</a>
-      <a class="nav-item nav-link active" href="/index.html">Home <span class="sr-only">(current)</span></a>
-      <a class="nav-item nav-link" href="#projects">Projects</a>
-      <a class="nav-item nav-link" href="#about">About Me</a>
-  </div>
-</nav>
+<!-- Navbar -->
+<header class="header">
+  <nav class="navbar navbar-expand-lg fixed-top py-3">
+      <div class="container"><a href="#welcomeContainer" class="navbar-brand text-uppercase font-weight-bold">JQ</a>
+          <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars" style="color: white"></i></button>
+          <div id="navbarSupportedContent" class="collapse navbar-collapse">
+              <ul class="navbar-nav ml-auto">
+                  <li class="nav-item active"><a href="#welcomeContainer" class="nav-link text-uppercase font-weight-bold">Home <span class="sr-only">(current)</span></a></li>
+                  <li class="nav-item"><a href="#about" class="nav-link text-uppercase font-weight-bold">About</a></li>
+                  <li class="nav-item"><a href="#projects" class="nav-link text-uppercase font-weight-bold">Portfolio</a></li>
+              </ul>
+          </div>
+      </div>
+  </nav>
 </header>
+<!-- End -->
 <body>
 <main>
 <!-- Content -->
@@ -32,44 +39,24 @@
         <div id="welcome">
           <img src="/Portfolio-Files/jada_quandt_square.jpg" id="headshot" alt="jada quandt photo">
       <h1 id="introH1">Hello! I'm Jada Quandt </h1>
-      <h2 id="whatamI">and I'm a Software Developer</h2>
+      <h2 id="whatamI">Software Developer</h2>
         <div id="buttondiv" class="center">
-      <a href="#projects"><button class="btn btn-dark" style="background-color: #fd9301;">Projects</button></a>
+      <a href="#projects"><button class="btn btn-dark" style="background-color: #fd9301;">Portfolio</button></a>
       <a href="/Portfolio-Files/jada_quandt_resume.pdf" target="_blank"><button class="btn btn-dark" style="background-color: #006e93;">Resume</button></a>
       <a href="#about"><button class="btn btn-dark" style="background-color: #001d4f;">About</button></a>
         </div>
         <div id="contactContainer" class="text-center mt-3">
           <hr>
-          <a href="mailto:jadaquandt@gmail.com"><i class="devicon-google-plain"></i></a>
-          <a href="https://github.com/jadaquandt" target="_blank"><i class="devicon-github-plain"></i></a>
-          <a href="https://www.linkedin.com/in/jadaquandt/" target="_blank"><i class="devicon-linkedin-plain"></i></a>
-          <a href="https://twitter.com/jadaquandt" target="_blank"><i class="devicon-twitter-plain"></i></a>
+          <a href="mailto:jadaquandt@gmail.com"><i class="fa fa-envelope" style="font-size:30px"></i></a>
+          <a href="https://github.com/jadaquandt" target="_blank"><i class="contacts devicon-github-plain"></i></a>
+          <a href="https://www.linkedin.com/in/jadaquandt/" target="_blank"><i class="contacts devicon-linkedin-plain"></i></a>
+          <a href="https://twitter.com/jadaquandt" target="_blank"><i class="contacts devicon-twitter-plain"></i></a>
        </div>
         </div>
 </div>
 <!-- Projects Section -->
   <div id="projects" class="projects text-center">
-      <h1 id="portfolioIntro" class="text-center mt-2">Projects</h1>
-<!-- Skills Section -->
-<h2 id="skillsH2">Skills</h2>
-<div class="project text-center">
-  <i class="devicon-angularjs-plain"></i>
-  <i class="devicon-bootstrap-plain-wordmark"></i>
-  <i class="devicon-css3-plain-wordmark"></i>
-  <i class="devicon-express-original-wordmark"></i>
-  <i class="devicon-github-plain-wordmark"></i>
-  <i class="devicon-heroku-original-wordmark"></i>
-  <i class="devicon-html5-plain-wordmark"></i>
-  <i class="devicon-javascript-plain"></i>
-  <i class="devicon-nodejs-plain-wordmark"></i>
-  <i class="devicon-npm-original-wordmark"></i>
-  <i class="devicon-photoshop-line"></i>
-  <i class="devicon-postgresql-plain-wordmark"></i>
-  <i class="devicon-react-original-wordmark"></i>
-  <i class="devicon-sequelize-plain-wordmark"></i>
-  <i class="devicon-typescript-plain"></i>
-<hr>
-</div>
+      <!-- <h1 id="portfolioIntro" class="text-center mt-2">Projects</h1> -->
 <!-- React Project -->
     <div class="project mb-3">
       <img src="/Portfolio-Files/react.gif" class="gif" alt="gif of react">
@@ -101,12 +88,39 @@
         <a href="http://twitchstreamlyfe.com.s3-website.us-east-1.amazonaws.com/index.html" class="btn btn-dark mt-2" style="background-color: #008795;" target="_blank">Live Site</a>
       </div>
       <hr>
+<!-- Skills Section -->
+  <h2 id="skillsH2">Skills</h2>
+  <div class="project text-center">
+    <i class="skills devicon-angularjs-plain" alt="Angular 10"></i>
+    <i class="skills devicon-bootstrap-plain-wordmark"></i>
+    <i class="skills devicon-css3-plain-wordmark"></i>
+    <i class="skills devicon-express-original-wordmark"></i>
+    <i class="skills devicon-github-plain-wordmark"></i>
+    <i class="skills devicon-heroku-original-wordmark"></i>
+    <i class="skills devicon-html5-plain-wordmark"></i>
+    <i class="skills devicon-javascript-plain"></i>
+    <i class="skills devicon-nodejs-plain-wordmark"></i>
+    <i class="skills devicon-npm-original-wordmark"></i>
+    <i class="skills devicon-photoshop-line"></i>
+    <i class="skills devicon-postgresql-plain-wordmark"></i>
+    <i class="skills devicon-react-original-wordmark"></i>
+    <i class="skills devicon-sequelize-plain-wordmark"></i>
+    <i class="skills devicon-typescript-plain"></i>
+  <hr>
+  </div>
 </div>
 <!-- About Me -->
 <div id="about">
     <h1 class="mx-auto d-flex justify-content-center mt-3">About Me</h1>
     <div id="aboutContainer" class="mx-auto mt-1 d-flex">
-      <div class="text-center p-5"><p>I mentioned already that I'm developer, but I am also a hobby<a href="https://jadaquandtphoto.pixieset.com/"> photographer</a>, eclectic <a href="https://open.spotify.com/user/jayduhdaruh">music fan</a>, Stephen King stan, and yogi. I also have a rescue dog named Fancy <span>(like the <a href="https://www.youtube.com/watch?v=1XkcrHz26CI" target="_blank">Bobbie Gentry song</a>)</span> and a husband named Josh.</p>
+      <div class="text-center p-5">
+        <ol>
+          <li>I graduated from Georgia State University with a Bachelor's in Journalism.</li>
+          <li>I love to learn new things. If it's not on my skill list, I'm willing to add it.</li>
+          <li>Photography is my second love. I love using it in combination with writing code!</li>
+          <li>I'm an advocate for women in STEM. I volunteer for Atlanta Women in Technology.</li>
+          <li></li>
+        </ol>
     </div>
       <div id="imageDiv" class="d-flex mr-5 align-self-center">
         <img id="fancy" src="/Portfolio-Files/fancy.jpg" alt="">
