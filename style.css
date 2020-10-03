@@ -1,7 +1,7 @@
-body {
+html, body {
     height: 120vh;
     font-family: 'Roboto', sans-serif;
-    background-color: grey;
+    background-color: #53929b;
     background-size: cover;
     width:  100%;
     color: #001d4f;
@@ -17,6 +17,7 @@ h1 {
 
 .navbar .nav-link {
     color: #fff;
+    font-family: 'Bebas Neue', cursive;
 }
 .navbar .nav-link:hover,
 .navbar .nav-link:focus {
@@ -48,7 +49,6 @@ ul {
 
 .list-group-item {
     font-size: 15px;
-    /* padding: 2px; */
 }
 
 .gif {
@@ -69,6 +69,7 @@ ul {
 
 .contacts {
     font-size: 30px;
+    color: black;
 }
 
 #welcomeContainer {
@@ -78,12 +79,6 @@ ul {
     align-items: center;
     text-align: center;
     /* background-color: #e3d096; */
-}
-
-#fancy {
-    width: 75%;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #whatamI {
@@ -121,5 +116,36 @@ ul {
 }
 
 #about {
-    height: 80vh;
+    max-height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #53929b;
+}
+
+#about p {
+    text-align: center;
+    margin: 0 50px;
+}
+
+#family {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    margin: 10px auto 10px auto;
+}
+
+#footer {
+    font-size: 15px;
+    position: static;
+    height: 10vh;
+}
+#footer a {
+    color: black;
+    font-size: 25px;
+}
+
+#footer p {
+    color: black;
+    font-size: 10px;
+    font-style: italic;
 }
