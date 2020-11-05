@@ -4,3 +4,5 @@ Using:
 HTML
 CSS
 Bootstrap
+Time
+Effort

@@ -1,7 +1,9 @@
 html, body {
     height: 120vh;
     font-family: 'Roboto', sans-serif;
-    background-color: #53929b;
+    background-color: #3c97b4;
+    /* background-image: linear-gradient(#3c97b4, #b4953c); */
+    /* background-image: linear-gradient(#b4953c, #3c97b4); */
     background-size: cover;
     width:  100%;
     color: #001d4f;
@@ -11,8 +13,9 @@ span {
     font-style: italic;
 }
 
-h1 {
+h1, h2, h3  {
     font-family: 'Bebas Neue', cursive;
+    text-align: center;
 }
 
 .navbar .nav-link {
@@ -40,7 +43,8 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: #53929b;
+    background-color: #3c97b4;
+    /* background-color: transparent; */
 }
 
 ul {
@@ -63,7 +67,7 @@ ul {
 }
 
 .projects {
-    background-color: #53929b;
+    background-color: #3c97b4;
     width: 100vw;
 }
 
@@ -73,12 +77,11 @@ ul {
 }
 
 #welcomeContainer {
-    height: 70%;
+    height: 80%;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-    /* background-color: #e3d096; */
 }
 
 #whatamI {
@@ -104,11 +107,11 @@ ul {
     margin-bottom: 20px;
 }
 
-#skillsH2 {
+/* #skillsH2 {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
     text-decoration: underline;
-}
+} */
 
 .skills {
     font-size: 60px;
@@ -119,7 +122,8 @@ ul {
     max-height: 80vh;
     margin-left: auto;
     margin-right: auto;
-    background-color: #53929b;
+    background-color: #3c97b4;
+    /* background-color: unset; */
 }
 
 #about p {
@@ -148,4 +152,8 @@ ul {
     color: black;
     font-size: 10px;
     font-style: italic;
+}
+
+.green-background {
+    background-color: #31927a
 }
