@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital@0;1&display=swap" rel="stylesheet">
+
     <!-- Stylesheet -->
     <link rel = "stylesheet" type = "text/css" href = "style.css"/>
     <!-- Bootstrap -->
@@ -16,15 +20,15 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Jada Quandt</title>
 </head>
-<main>
+<body>
 <!-- Navbar -->
 <header class="header">
   <nav class="navbar navbar-expand-lg fixed-top py-3">
-      <div class="container"><a href="#welcomeContainer" class="navbar-brand text-uppercase font-weight-bold">JQ</a>
+      <div class="container"><a href="#welcome-section" class="navbar-brand text-uppercase font-weight-bold">Jada Quandt</a>
           <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars" style="color: white"></i></button>
           <div id="navbarSupportedContent" class="collapse navbar-collapse">
               <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active"><a href="#welcomeContainer" class="nav-link text-uppercase font-weight-bold">Home <span class="sr-only">(current)</span></a></li>
+                  <li class="nav-item active"><a href="#welcome-section" class="nav-link text-uppercase font-weight-bold">Home <span class="sr-only">(current)</span></a></li>
                   <li class="nav-item"><a href="#about" class="nav-link text-uppercase font-weight-bold">About</a></li>
                   <li class="nav-item"><a href="#projects" class="nav-link text-uppercase font-weight-bold">Portfolio</a></li>
               </ul>
@@ -33,20 +37,30 @@
   </nav>
 </header>
 <!-- End -->
-<body>
-
 <!-- Content -->
-<div id="welcomeContainer">
-  <div id="welcome">
-    <img src="/Portfolio-Files/jada_quandt_square.jpg" id="headshot" alt="jada quandt photo">
-    <h1 id="introH1">Hello! I'm Jada Quandt.</h1>
-    <h2 id="whatamI">Software Engineer</h2>
+<div id="welcome-section">
+  <div id="welcome-tagline-contact">
+    <div id="tagline-container">
+      <div id="tagline-text">
+        <h1 class="introH1">Jada Quandt </h1>
+          <h1 class="introH1">{</h1>
+        <ul>
+          <li>Front-End Software Engineer</li>
+          <li>Hypewoman/Volunteer for <a id="wit-link" href="https://mywit.org/" target="_blank">Women in Tech</a></li>
+        </ul>
+        <h1 class="introH1">}</h1>
+      </div>
+      <div id="headshot-container">
+        <img src="/Portfolio-Files/jada_q_2022.png" id="headshot" alt="jada quandt photo">
+      </div>
+    </div>
+
       <div id="buttondiv" class="center">
-        <a href="#projects"><button class="btn btn-dark green-background">Portfolio</button></a>
-        <a href="/Portfolio-Files/jada_quandt_resume.pdf" target="_blank"><button class="btn btn-dark" style="background-color: #2f778f;">Resume</button></a>
+        <a href="#projects-section"><button class="btn btn-dark" style="background-color: #2f778f;">Portfolio</button></a>
         <a href="#about"><button class="btn btn-dark" style="background-color: #b4593c;">About</button></a>
       </div>
-      <div id="contactContainer" class="text-center mt-3">
+
+      <div id="contact-container" class="text-center mt-3">
         <hr>
         <a href="mailto:jadaquandt@gmail.com"><i class="contacts fa fa-envelope" style="font-size:33px"></i></a>
         <a href="https://github.com/jadaquandt" target="_blank"><i class="contacts devicon-github-plain"></i></a>
@@ -56,8 +70,8 @@
   </div>  
 </div>
 <!-- Projects Section -->
-<hr>
-  <div id="projects" class="projects text-center">
+<!-- <hr> -->
+<div id="projects-section" class="projects text-center">
     <h2>Check out my projects:</h2>
       <!-- <h1 id="portfolioIntro" class="text-center mt-2">Projects</h1> -->
 <!-- React Project -->
@@ -90,9 +104,10 @@
         <a href="https://github.com/jadaquandt/Twitch-Lyfe-Website" class="btn btn-dark mt-2" style="background-color: #fd9301;" target="_blank">Code</a>
         <a href="http://twitchstreamlyfe.com.s3-website.us-east-1.amazonaws.com/index.html" class="btn btn-dark mt-2" style="background-color: #008795;" target="_blank">Live Site</a>
       </div>
-  </div>
-      <hr>
+</div>
+      <!-- <hr> -->
 <!-- Skills Section -->
+<div id="skills-section">
   <h3 id="skillsH2">Skills</h3>
   <div class="project text-center">
     <i class="skills devicon-angularjs-plain" alt="Angular 10"></i>
@@ -110,7 +125,7 @@
     <i class="skills devicon-react-original-wordmark"></i>
     <i class="skills devicon-sequelize-plain-wordmark"></i>
     <i class="skills devicon-typescript-plain"></i>
-  <hr>
+  <!-- <hr> -->
   </div>
 </div>
 <!-- About Me -->
@@ -133,7 +148,7 @@
   <a href="https://twitter.com/jadaquandt" target="_blank"><i class=" devicon-twitter-plain"></i></a>
   <p>&copy; Site designed and maintained by Jada Quandt</p>
 </div>
-</main>
+<!-- </main> -->
 <!-- My JS File
 <script src="index.js"></script> -->
 <!-- Bootstrap JS files -->
