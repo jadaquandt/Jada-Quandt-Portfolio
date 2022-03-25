@@ -1,159 +1,366 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Font -->
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital@0;1&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:ital,wght@0,300;0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- Stylesheet -->
-    <link rel = "stylesheet" type = "text/css" href = "style.css"/>
+    <link rel="stylesheet" type="text/css" href="style.css" />
     <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-     <!-- Dev Icons -->
-    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css">
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- Dev Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@master/devicon.min.css"
+    />
     <!-- Email icon -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <title>Jada Quandt</title>
-</head>
-<body>
-<!-- Navbar -->
-<header class="header">
-  <nav class="navbar navbar-expand-lg fixed-top py-3">
-      <div class="container"><a href="#welcome-section" class="navbar-brand text-uppercase font-weight-bold">Jada Quandt</a>
-          <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars" style="color: white"></i></button>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header class="header">
+      <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+          <a
+            href="#welcome-section"
+            class="navbar-brand text-uppercase font-weight-bold"
+            >Jada Quandt</a
+          >
+          <button
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            class="navbar-toggler navbar-toggler-right"
+          >
+            <i class="fa fa-bars" style="color: white"></i>
+          </button>
           <div id="navbarSupportedContent" class="collapse navbar-collapse">
-              <ul class="navbar-nav ml-auto">
-                  <li class="nav-item active"><a href="#welcome-section" class="nav-link text-uppercase font-weight-bold">Home <span class="sr-only">(current)</span></a></li>
-                  <li class="nav-item"><a href="#about" class="nav-link text-uppercase font-weight-bold">About</a></li>
-                  <li class="nav-item"><a href="#projects" class="nav-link text-uppercase font-weight-bold">Portfolio</a></li>
-              </ul>
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item active">
+                <a
+                  href="#welcome-section"
+                  class="nav-link text-uppercase font-weight-bold"
+                  >Home <span class="sr-only">(current)</span></a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#about-section"
+                  class="nav-link text-uppercase font-weight-bold"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#projects"
+                  class="nav-link text-uppercase font-weight-bold"
+                  >Portfolio</a
+                >
+              </li>
+            </ul>
           </div>
-      </div>
-  </nav>
-</header>
-<!-- End -->
-<!-- Content -->
-<div id="welcome-section">
-  <div id="welcome-tagline-contact">
-    <div id="tagline-container">
-      <div id="tagline-text">
-        <h1 class="introH1">Jada Quandt </h1>
-          <h1 class="introH1">{</h1>
-        <ul>
-          <li>Front-End Software Engineer</li>
-          <li>Hypewoman/Volunteer for <a id="wit-link" href="https://mywit.org/" target="_blank">Women in Tech</a></li>
-        </ul>
-        <h1 class="introH1">}</h1>
-      </div>
-      <div id="headshot-container">
-        <img src="/Portfolio-Files/jada_q_2022.png" id="headshot" alt="jada quandt photo">
+        </div>
+      </nav>
+    </header>
+    <!-- End -->
+    <!-- Content -->
+    <div id="welcome-section">
+      <div id="welcome-tagline-contact">
+        <div id="tagline-container">
+          <div id="tagline-text">
+            <h1 class="name-object">Jada Quandt</h1>
+            <h1 class="name-object">{</h1>
+            <ul class="custom-ul">
+              <li>Front-End Software Engineer</li>
+              <li>
+                Hypewoman/Volunteer for
+                <a id="wit-link" href="https://mywit.org/" target="_blank"
+                  >Women in Tech</a
+                >
+              </li>
+            </ul>
+            <h1 class="name-object">}</h1>
+          </div>
+          <div id="headshot-container">
+            <img
+              src="/Portfolio-Files/jada_q_2022.png"
+              id="headshot"
+              alt="jada quandt photo"
+            />
+          </div>
+        </div>
+
+        <div id="buttondiv" class="center">
+          <a href="#projects-section"
+            ><button class="btn btn-dark" style="background-color: #2f778f">
+              Portfolio
+            </button></a
+          >
+          <a href="#about-section"
+            ><button class="btn btn-dark" style="background-color: #b4593c">
+              About
+            </button></a
+          >
+        </div>
+
+        <div id="contact-container" class="text-center mt-3">
+          <hr />
+          <a href="mailto:jadaquandt@gmail.com"
+            ><i class="contacts fa fa-envelope" style="font-size: 33px"></i
+          ></a>
+          <a href="https://github.com/jadaquandt" target="_blank"
+            ><i class="contacts devicon-github-plain"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/jadaquandt/" target="_blank"
+            ><i class="contacts devicon-linkedin-plain"></i
+          ></a>
+          <a href="https://twitter.com/jadaquandt" target="_blank"
+            ><i class="contacts devicon-twitter-plain"></i
+          ></a>
+        </div>
       </div>
     </div>
-
-      <div id="buttondiv" class="center">
-        <a href="#projects-section"><button class="btn btn-dark" style="background-color: #2f778f;">Portfolio</button></a>
-        <a href="#about"><button class="btn btn-dark" style="background-color: #b4593c;">About</button></a>
-      </div>
-
-      <div id="contact-container" class="text-center mt-3">
-        <hr>
-        <a href="mailto:jadaquandt@gmail.com"><i class="contacts fa fa-envelope" style="font-size:33px"></i></a>
-        <a href="https://github.com/jadaquandt" target="_blank"><i class="contacts devicon-github-plain"></i></a>
-        <a href="https://www.linkedin.com/in/jadaquandt/" target="_blank"><i class="contacts devicon-linkedin-plain"></i></a>
-        <a href="https://twitter.com/jadaquandt" target="_blank"><i class="contacts devicon-twitter-plain"></i></a>
-      </div>
-  </div>  
-</div>
-<!-- Projects Section -->
-<!-- <hr> -->
-<div id="projects-section" class="projects text-center">
-    <h2>Check out my projects:</h2>
+    <!-- Projects Section -->
+    <!-- <hr> -->
+    <div id="projects-section" class="projects text-center">
+      <h2>Check out my projects:</h2>
       <!-- <h1 id="portfolioIntro" class="text-center mt-2">Projects</h1> -->
-<!-- React Project -->
-    <div class="project mb-3">
-      <img src="/Portfolio-Files/react.gif" class="gif" alt="gif of react">
+      <!-- React Project -->
+      <div class="project mb-3">
+        <img src="/Portfolio-Files/react.gif" class="gif" alt="gif of react" />
         <h5 class="card-title">War</h5>
-          <span><p>Built a space-themed version of the playing card game "war" as part of a React.js & Redux project for DigitalCrafts.</p></span>
-          <p>The scope of this class project required at least 6 React components, 5 Redux actions, and use of local state.</p>
-          <p>Built with: React.js, Redux, Javascript, CSS, and Material UI</p>
-        <a href="https://github.com/jadaquandt/React-War-in-Space" class="btn btn-dark mt-2" style="background-color: #fd9301;" target="_blank">Code</a>
-        <a href="https://react-war.vercel.app/home" class="btn btn-dark mt-2" style="background-color: #008795;" target="_blank">Live Site</a>
-    </div>
-<!-- GTL Project -->
-    <div class="project mb-3">
-      <img src="/Portfolio-Files/gtl.gif" class="gif" alt="gif of gtl">
-        <h5 class="card-title">Gym-Tan-Laundry</h5>
-          <span><p>Member of a 5-person development team building a playlist development site that allows users to create a randomized playlist based on “Gym,” “Tan,” and “Laundry” categories.</p></span>
-          <p>Responsibilities included assisting with Front-End design using EJS, learning and implementing Spotify’s API parameters, writing the functions in JavaScript that populated and rendered playlists.</p>
-          <p>Built with: HTML, CSS, Bootstrap, JavaScript, RESTful API, Axios, Express, EJS, Passport JS</p>
-        <a href="https://github.com/digitalcrafts-atl/Gym-Tan-Laundry" class="btn btn-dark mt-2" style="background-color: #fd9301;" target="_blank">Code</a>
-        <a href="https://gym-tan-laundry.herokuapp.com/" class="btn btn-dark mt-2" style="background-color: #008795;" target="_blank">Live Site</a>
-  </div>
-<!-- Twitch Lyfe Project -->
-      <div class="project">
-      <img src="/Portfolio-Files/twitch.gif" class="gif " alt="gif of twitch life">
-        <h5 class="card-title">Twitch Lyfe</h5>
-          <span><p>Member of a 6-person development team building a Twitch website to feature the top streamers, top streamed games, and a search page to search the IGDB API to learn more about games.</p></span>
-          <p>Responsibilities included designing and assembling a fully mobile-responsive layout and creating the search page utilizing Javascript to render searches from the IGDB API</p>
-          <p>Built with: HTML, CSS, Bootstrap, JavaScript, RESTful API, and Axios</p>
-        <a href="https://github.com/jadaquandt/Twitch-Lyfe-Website" class="btn btn-dark mt-2" style="background-color: #fd9301;" target="_blank">Code</a>
-        <a href="http://twitchstreamlyfe.com.s3-website.us-east-1.amazonaws.com/index.html" class="btn btn-dark mt-2" style="background-color: #008795;" target="_blank">Live Site</a>
+        <span>
+          <p>
+            Built a space-themed version of the playing card game "war" as part
+            of a React.js & Redux project for DigitalCrafts.
+          </p>
+        </span>
+        <p>
+          The scope of this class project required at least 6 React components,
+          5 Redux actions, and use of local state.
+        </p>
+        <p>Built with: React.js, Redux, Javascript, CSS, and Material UI</p>
+        <a
+          href="https://github.com/jadaquandt/React-War-in-Space"
+          class="btn btn-dark mt-2"
+          style="background-color: #fd9301"
+          target="_blank"
+          >Code</a
+        >
+        <a
+          href="https://react-war.vercel.app/home"
+          class="btn btn-dark mt-2"
+          style="background-color: #008795"
+          target="_blank"
+          >Live Site</a
+        >
       </div>
-</div>
-      <!-- <hr> -->
-<!-- Skills Section -->
-<div id="skills-section">
-  <h3 id="skillsH2">Skills</h3>
-  <div class="project text-center">
-    <i class="skills devicon-angularjs-plain" alt="Angular 10"></i>
-    <i class="skills devicon-bootstrap-plain-wordmark"></i>
-    <i class="skills devicon-css3-plain-wordmark"></i>
-    <i class="skills devicon-express-original-wordmark"></i>
-    <i class="skills devicon-github-plain-wordmark"></i>
-    <i class="skills devicon-heroku-original-wordmark"></i>
-    <i class="skills devicon-html5-plain-wordmark"></i>
-    <i class="skills devicon-javascript-plain"></i>
-    <i class="skills devicon-nodejs-plain-wordmark"></i>
-    <i class="skills devicon-npm-original-wordmark"></i>
-    <i class="skills devicon-photoshop-line"></i>
-    <i class="skills devicon-postgresql-plain-wordmark"></i>
-    <i class="skills devicon-react-original-wordmark"></i>
-    <i class="skills devicon-sequelize-plain-wordmark"></i>
-    <i class="skills devicon-typescript-plain"></i>
-  <!-- <hr> -->
-  </div>
-</div>
-<!-- About Me -->
-<div id="about">
-    <h1 class="mx-auto d-flex justify-content-center">About Me</h1>
-    <p>I'm a Software Development Intern at <a href="https://timbergrove.com/" style="color: lightgrey" target="_blank" rel="noopener noreferrer">Timbergrove</a>, 
-      where I work with TypeScript and Angular to build custom software for clients. 
-      <br>
-      In my spare time, I enjoy reading Stephen King, playing 
-      with my dog and spending time with my husband, Josh.</p>
-        <img id="family" class="d-flex" src="/Portfolio-Files/jada_family.jpg" alt="">
-</div>
-<!-- Contact Buttons -->
-<div id="footer" class="text-center">
-  <hr class="m-0 p-0">
-  <p class="m-1 p-0">Don't be a stranger. Contact me:</p>
-  <a href="mailto:jadaquandt@gmail.com"><i class="devicon-google-plain"></i></a>
-  <a href="https://github.com/jadaquandt" target="_blank"><i class="devicon-github-plain"></i></a>
-  <a href="https://www.linkedin.com/in/jadaquandt/" target="_blank"><i class="devicon-linkedin-plain"></i></a>
-  <a href="https://twitter.com/jadaquandt" target="_blank"><i class=" devicon-twitter-plain"></i></a>
-  <p>&copy; Site designed and maintained by Jada Quandt</p>
-</div>
-<!-- </main> -->
-<!-- My JS File
+      <!-- GTL Project -->
+      <div class="project mb-3">
+        <img src="/Portfolio-Files/gtl.gif" class="gif" alt="gif of gtl" />
+        <h5 class="card-title">Gym-Tan-Laundry</h5>
+        <span>
+          <p>
+            Member of a 5-person development team building a playlist
+            development site that allows users to create a randomized playlist
+            based on “Gym,” “Tan,” and “Laundry” categories.
+          </p>
+        </span>
+        <p>
+          Responsibilities included assisting with Front-End design using EJS,
+          learning and implementing Spotify’s API parameters, writing the
+          functions in JavaScript that populated and rendered playlists.
+        </p>
+        <p>
+          Built with: HTML, CSS, Bootstrap, JavaScript, RESTful API, Axios,
+          Express, EJS, Passport JS
+        </p>
+        <a
+          href="https://github.com/digitalcrafts-atl/Gym-Tan-Laundry"
+          class="btn btn-dark mt-2"
+          style="background-color: #fd9301"
+          target="_blank"
+          >Code</a
+        >
+        <a
+          href="https://gym-tan-laundry.herokuapp.com/"
+          class="btn btn-dark mt-2"
+          style="background-color: #008795"
+          target="_blank"
+          >Live Site</a
+        >
+      </div>
+      <!-- Twitch Lyfe Project -->
+      <div class="project">
+        <img
+          src="/Portfolio-Files/twitch.gif"
+          class="gif"
+          alt="gif of twitch life"
+        />
+        <h5 class="card-title">Twitch Lyfe</h5>
+        <span>
+          <p>
+            Member of a 6-person development team building a Twitch website to
+            feature the top streamers, top streamed games, and a search page to
+            search the IGDB API to learn more about games.
+          </p>
+        </span>
+        <p>
+          Responsibilities included designing and assembling a fully
+          mobile-responsive layout and creating the search page utilizing
+          Javascript to render searches from the IGDB API
+        </p>
+        <p>
+          Built with: HTML, CSS, Bootstrap, JavaScript, RESTful API, and Axios
+        </p>
+        <a
+          href="https://github.com/jadaquandt/Twitch-Lyfe-Website"
+          class="btn btn-dark mt-2"
+          style="background-color: #fd9301"
+          target="_blank"
+          >Code</a
+        >
+        <a
+          href="http://twitchstreamlyfe.com.s3-website.us-east-1.amazonaws.com/index.html"
+          class="btn btn-dark mt-2"
+          style="background-color: #008795"
+          target="_blank"
+          >Live Site</a
+        >
+      </div>
+    </div>
+    <!-- <hr> -->
+    <!-- Skills Section -->
+    <div id="skills-section">
+      <h3 id="skillsH2">Skills</h3>
+      <div class="project text-center">
+        <i class="skills devicon-angularjs-plain" alt="Angular 10"></i>
+        <i class="skills devicon-bootstrap-plain-wordmark"></i>
+        <i class="skills devicon-css3-plain-wordmark"></i>
+        <i class="skills devicon-express-original-wordmark"></i>
+        <i class="skills devicon-github-plain-wordmark"></i>
+        <i class="skills devicon-heroku-original-wordmark"></i>
+        <i class="skills devicon-html5-plain-wordmark"></i>
+        <i class="skills devicon-javascript-plain"></i>
+        <i class="skills devicon-nodejs-plain-wordmark"></i>
+        <i class="skills devicon-npm-original-wordmark"></i>
+        <i class="skills devicon-photoshop-line"></i>
+        <i class="skills devicon-postgresql-plain-wordmark"></i>
+        <i class="skills devicon-react-original-wordmark"></i>
+        <i class="skills devicon-sequelize-plain-wordmark"></i>
+        <i class="skills devicon-typescript-plain"></i>
+        <br />
+        <div class="timeline">
+          <ul class="custom-ul">
+            <li>
+              Current Position: Software Engineer Consultant at
+              <a
+                id="employer-link"
+                href="https://www.daugherty.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Daugherty Business Solutions</a
+              >
+            </li>
+            <li>
+              Volunteer Project Manager for
+              <a id="wit-link" href="https://mywit.org/" target="_blank"
+                >WIT Girls</a
+              >
+            </li>
+            <br />
+            <li>
+              December 2020 - Software Development Apprentice at Clearly
+              Innovative
+            </li>
+            <li>October 2020 - Teaching Assistant for DigitalCrafts Atlanta</li>
+            <li>September 2020 - Software Development Intern at Timbergrove</li>
+            <li>July 2020 - Full Stack Bootcamp Graduation</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <!-- About Me -->
+    <div id="about-section">
+      <h1 class="mx-auto d-flex justify-content-center">About Me</h1>
+      <p id="about-text">
+        I am a former executive assistant with a bachelor's degree in Journalism
+        who found her way to Software Engineering in 2020. I have a rescue dog
+        named Fancy and a musician husband named Josh.
+      </p>
+      <div class="family-photo">
+        <img
+          id="family"
+          class="d-flex"
+          src="/Portfolio-Files/jada_family.jpg"
+          alt=""
+        />
+      </div>
+    </div>
+    <footer id="footer">
+      <!-- <hr class="m-0 p-0" /> -->
+      <p class="m-1 p-0">Don't be a stranger. Contact me:</p>
+      <div>
+        <a href="mailto:jadaquandt@gmail.com"
+          ><i class="devicon-google-plain"></i
+        ></a>
+        <a href="https://github.com/jadaquandt" target="_blank"
+          ><i class="devicon-github-plain"></i
+        ></a>
+        <a href="https://www.linkedin.com/in/jadaquandt/" target="_blank"
+          ><i class="devicon-linkedin-plain"></i
+        ></a>
+        <a href="https://twitter.com/jadaquandt" target="_blank"
+          ><i class="devicon-twitter-plain"></i
+        ></a>
+      </div>
+      <p>&copy; Jada Quandt</p>
+    </footer>
+    <!-- My JS File
 <script src="index.js"></script> -->
-<!-- Bootstrap JS files -->
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-</body>
+    <!-- Bootstrap JS files -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
