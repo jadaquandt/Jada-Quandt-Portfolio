@@ -80,7 +80,7 @@
               </li>
               <li class="nav-item">
                 <a
-                  href="#projects"
+                  href="#projects-section"
                   class="nav-link text-uppercase font-weight-bold"
                   >Portfolio</a
                 >
@@ -120,12 +120,12 @@
 
         <div id="buttondiv" class="center">
           <a href="#projects-section"
-            ><button class="btn btn-dark" style="background-color: #2f778f">
+            ><button class="btn btn-light" style="background-color: #fdbe43">
               Portfolio
             </button></a
           >
           <a href="#about-section"
-            ><button class="btn btn-dark" style="background-color: #b4593c">
+            ><button class="btn btn-light" style="background-color: #0092d0">
               About
             </button></a
           >
@@ -149,168 +149,146 @@
       </div>
     </div>
     <!-- Projects Section -->
-    <!-- <hr> -->
     <div id="projects-section" class="projects text-center">
-      <h2>Check out my projects:</h2>
-      <!-- <h1 id="portfolioIntro" class="text-center mt-2">Projects</h1> -->
+      <h2 id="section-intro">Portfolio</h2>
       <!-- React Project -->
-      <div class="project mb-3">
-        <img src="/Portfolio-Files/react.gif" class="gif" alt="gif of react" />
-        <h5 class="card-title">War</h5>
-        <span>
+      <div id="projects-container">
+        <div class="project">
+          <img
+            src="/Portfolio-Files/react_new.gif"
+            class="gif"
+            alt="gif of react"
+          />
+          <p>Built with: React.js, Redux, Javascript, CSS, and Material UI</p>
+          <div>
+            <a
+              href="https://github.com/jadaquandt/React-War-in-Space"
+              class="btn mt-2"
+              style="background-color: #ff7500"
+              target="_blank"
+              >Code</a
+            >
+            <a
+              href="https://react-war.vercel.app/home"
+              class="btn mt-2"
+              style="background-color: #0092d0"
+              target="_blank"
+              >Live Site</a
+            >
+          </div>
+        </div>
+        <!-- GTL Project -->
+        <div class="project">
+          <img
+            src="/Portfolio-Files/gtl_new.gif"
+            class="gif"
+            alt="gif of gtl"
+          />
           <p>
-            Built a space-themed version of the playing card game "war" as part
-            of a React.js & Redux project for DigitalCrafts.
+            Built with: Bootstrap, JavaScript, RESTful API, Axios, Express,
+            Passport JS
           </p>
-        </span>
-        <p>
-          The scope of this class project required at least 6 React components,
-          5 Redux actions, and use of local state.
-        </p>
-        <p>Built with: React.js, Redux, Javascript, CSS, and Material UI</p>
-        <a
-          href="https://github.com/jadaquandt/React-War-in-Space"
-          class="btn btn-dark mt-2"
-          style="background-color: #fd9301"
-          target="_blank"
-          >Code</a
-        >
-        <a
-          href="https://react-war.vercel.app/home"
-          class="btn btn-dark mt-2"
-          style="background-color: #008795"
-          target="_blank"
-          >Live Site</a
-        >
-      </div>
-      <!-- GTL Project -->
-      <div class="project mb-3">
-        <img src="/Portfolio-Files/gtl.gif" class="gif" alt="gif of gtl" />
-        <h5 class="card-title">Gym-Tan-Laundry</h5>
-        <span>
+          <div>
+            <a
+              href="https://github.com/digitalcrafts-atl/Gym-Tan-Laundry"
+              class="btn mt-2"
+              style="background-color: #ff7500"
+              target="_blank"
+              >Code</a
+            >
+            <a
+              href="https://gym-tan-laundry.herokuapp.com/"
+              class="btn mt-2"
+              style="background-color: #0092d0"
+              target="_blank"
+              >Live Site</a
+            >
+          </div>
+        </div>
+        <!-- Can I Feed My Dog? -->
+        <div class="project">
+          <img
+            src="/Portfolio-Files/dog.gif"
+            class="gif"
+            alt="gif of can my dog eat"
+          />
           <p>
-            Member of a 5-person development team building a playlist
-            development site that allows users to create a randomized playlist
-            based on “Gym,” “Tan,” and “Laundry” categories.
+            Built with: HTML, CSS, Bootstrap, JavaScript, RESTful API, and Axios
           </p>
-        </span>
-        <p>
-          Responsibilities included assisting with Front-End design using EJS,
-          learning and implementing Spotify’s API parameters, writing the
-          functions in JavaScript that populated and rendered playlists.
-        </p>
-        <p>
-          Built with: HTML, CSS, Bootstrap, JavaScript, RESTful API, Axios,
-          Express, EJS, Passport JS
-        </p>
-        <a
-          href="https://github.com/digitalcrafts-atl/Gym-Tan-Laundry"
-          class="btn btn-dark mt-2"
-          style="background-color: #fd9301"
-          target="_blank"
-          >Code</a
-        >
-        <a
-          href="https://gym-tan-laundry.herokuapp.com/"
-          class="btn btn-dark mt-2"
-          style="background-color: #008795"
-          target="_blank"
-          >Live Site</a
-        >
-      </div>
-      <!-- Twitch Lyfe Project -->
-      <div class="project">
-        <img
-          src="/Portfolio-Files/twitch.gif"
-          class="gif"
-          alt="gif of twitch life"
-        />
-        <h5 class="card-title">Twitch Lyfe</h5>
-        <span>
-          <p>
-            Member of a 6-person development team building a Twitch website to
-            feature the top streamers, top streamed games, and a search page to
-            search the IGDB API to learn more about games.
-          </p>
-        </span>
-        <p>
-          Responsibilities included designing and assembling a fully
-          mobile-responsive layout and creating the search page utilizing
-          Javascript to render searches from the IGDB API
-        </p>
-        <p>
-          Built with: HTML, CSS, Bootstrap, JavaScript, RESTful API, and Axios
-        </p>
-        <a
-          href="https://github.com/jadaquandt/Twitch-Lyfe-Website"
-          class="btn btn-dark mt-2"
-          style="background-color: #fd9301"
-          target="_blank"
-          >Code</a
-        >
-        <a
-          href="http://twitchstreamlyfe.com.s3-website.us-east-1.amazonaws.com/index.html"
-          class="btn btn-dark mt-2"
-          style="background-color: #008795"
-          target="_blank"
-          >Live Site</a
-        >
+          <div>
+            <a
+              href="https://github.com/jadaquandt/what-can-my-dog-eat"
+              class="btn mt-2"
+              style="background-color: #ff7500"
+              target="_blank"
+              >Code</a
+            >
+            <a
+              href="https://what-can-my-dog-eat-pi.vercel.app/"
+              class="btn mt-2"
+              style="background-color: #0092d0"
+              target="_blank"
+              >Live Site</a
+            >
+          </div>
+        </div>
       </div>
     </div>
-    <!-- <hr> -->
     <!-- Skills Section -->
     <div id="skills-section">
-      <h3 id="skillsH2">Skills</h3>
-      <div class="project text-center">
-        <i class="skills devicon-angularjs-plain" alt="Angular 10"></i>
-        <i class="skills devicon-bootstrap-plain-wordmark"></i>
-        <i class="skills devicon-css3-plain-wordmark"></i>
-        <i class="skills devicon-express-original-wordmark"></i>
-        <i class="skills devicon-github-plain-wordmark"></i>
-        <i class="skills devicon-heroku-original-wordmark"></i>
-        <i class="skills devicon-html5-plain-wordmark"></i>
-        <i class="skills devicon-javascript-plain"></i>
-        <i class="skills devicon-nodejs-plain-wordmark"></i>
-        <i class="skills devicon-npm-original-wordmark"></i>
-        <i class="skills devicon-photoshop-line"></i>
-        <i class="skills devicon-postgresql-plain-wordmark"></i>
-        <i class="skills devicon-react-original-wordmark"></i>
-        <i class="skills devicon-sequelize-plain-wordmark"></i>
-        <i class="skills devicon-typescript-plain"></i>
-        <br />
-        <div class="timeline">
-          <ul class="custom-ul">
-            <li>
-              Current Position: Software Engineer Consultant at
-              <a
-                id="employer-link"
-                href="https://www.daugherty.com/"
-                target="_blank"
-                rel="noopener noreferrer"
-                >Daugherty Business Solutions</a
-              >
-            </li>
-            <li>
-              Volunteer Project Manager for
-              <a id="wit-link" href="https://mywit.org/" target="_blank"
-                >WIT Girls</a
-              >
-            </li>
-            <br />
-            <li>
-              December 2020 - Software Development Apprentice at Clearly
-              Innovative
-            </li>
-            <li>October 2020 - Teaching Assistant for DigitalCrafts Atlanta</li>
-            <li>September 2020 - Software Development Intern at Timbergrove</li>
-            <li>July 2020 - Full Stack Bootcamp Graduation</li>
-          </ul>
-        </div>
+      <h3 id="section-intro">Skills</h3>
+      <div class="text-center">
+        <i class="skills devicon-angularjs-plain" alt="Angular 12"></i>
+        <!-- <i class="skills devicon-bootstrap-plain-wordmark"></i> -->
+        <!-- <i class="skills devicon-css3-plain-wordmark"></i> -->
+        <!-- <i class="skills devicon-express-original-wordmark"></i> -->
+        <!-- <i class="skills devicon-github-plain-wordmark"></i> -->
+        <i class="skills devicon-heroku-original-wordmark" alt="Heroku"></i>
+        <!-- <i class="skills devicon-html5-plain-wordmark"></i> -->
+        <i class="skills devicon-javascript-plain" alt="JavaScript"></i>
+        <i class="skills devicon-nodejs-plain-wordmark" alt="Node"></i>
+        <i class="skills devicon-npm-original-wordmark" alt="NPM"></i>
+        <!-- <i class="skills devicon-photoshop-line"></i> -->
+        <i
+          class="skills devicon-postgresql-plain-wordmark"
+          alt="Postgresql"
+        ></i>
+        <i class="skills devicon-react-original-wordmark" alt="React"></i>
+        <!-- <i class="skills devicon-sequelize-plain-wordmark"></i> -->
+        <i class="skills devicon-typescript-plain" alt="Typescript"></i>
+      </div>
+      <div id="timeline">
+        <ul class="custom-ul">
+          <li>
+            Current Position: Software Engineer Consultant at
+            <a
+              id="employer-link"
+              href="https://www.daugherty.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Daugherty Business Solutions</a
+            >
+          </li>
+          <li>
+            Volunteer Project Manager for
+            <a id="wit-link" href="https://mywit.org/" target="_blank"
+              >WIT Girls</a
+            >
+          </li>
+          <br />
+          <li>
+            December 2020 - Software Development Apprentice at Clearly
+            Innovative
+          </li>
+          <li>October 2020 - Teaching Assistant for DigitalCrafts Atlanta</li>
+          <li>September 2020 - Software Development Intern at Timbergrove</li>
+          <li>July 2020 - Full Stack Bootcamp Graduation</li>
+        </ul>
       </div>
     </div>
     <!-- About Me -->
     <div id="about-section">
-      <h1 class="mx-auto d-flex justify-content-center">About Me</h1>
+      <h1 id="section-intro">About Me</h1>
       <p id="about-text">
         I am a former executive assistant with a bachelor's degree in Journalism
         who found her way to Software Engineering in 2020. I have a rescue dog

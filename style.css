@@ -1,7 +1,7 @@
 html,
 body {
   font-family: "JetBrains Mono", monospace;
-  background-color: lightblue;
+  background-color: black;
   /* background-image: linear-gradient(#3c97b4, #b4953c); */
   /* background-image: linear-gradient(#b4953c, #3c97b4); */
   background-size: cover;
@@ -50,25 +50,6 @@ nav {
   font-family: "JetBrains Mono", monospace;
 }
 
-.gif {
-  width: 40vw;
-  justify-content: center;
-}
-
-.project {
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
-  height: 100%;
-}
-
-#projects-section {
-  padding-top: 20px;
-  background-color: #b8a99a;
-  width: 100%;
-  padding-bottom: 50px;
-}
-
 .contacts {
   font-size: 30px;
   color: black;
@@ -81,7 +62,7 @@ nav {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-color: orange;
+  background-color: #ff7500;
   overflow: hidden;
 }
 
@@ -106,7 +87,7 @@ nav {
 }
 
 #contact-container {
-  padding-top: 50px;
+  padding: 50px 0px;
   font-family: "Roboto", sans-serif;
   font-size: 10px;
   justify-content: end;
@@ -117,10 +98,58 @@ nav {
   margin-bottom: 20px;
 }
 
+.gif {
+  width: 400px;
+  justify-content: center;
+}
+
+#projects-section {
+  padding-bottom: 50px;
+  background-color: #fdbe43;
+  flex-direction: column;
+  padding-top: 100px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+#section-intro {
+  font-size: 60px;
+  width: 100%;
+}
+
+#projects-container {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 80%;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  padding: 10px;
+}
+
 #skills-section {
-  background-color: #009e85;
+  background-color: #0092d0;
   height: 100%;
   padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#timeline {
+  height: 80%;
+  display: flex;
+  align-items: center;
 }
 
 .skills {
@@ -145,7 +174,6 @@ nav {
   width: 100%;
   max-width: 500px;
   height: auto;
-  /* margin: 10px auto 10px auto; */
 }
 
 #footer {
@@ -157,12 +185,12 @@ nav {
   height: 10%;
 }
 #footer a {
-  color: black;
+  color: white;
   font-size: 25px;
 }
 
 #footer p {
-  color: black;
+  color: white;
   font-size: 10px;
   font-style: italic;
 }
