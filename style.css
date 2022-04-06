@@ -2,12 +2,10 @@ html,
 body {
   font-family: "JetBrains Mono", monospace;
   background-color: black;
-  /* background-image: linear-gradient(#3c97b4, #b4953c); */
-  /* background-image: linear-gradient(#b4953c, #3c97b4); */
   background-size: cover;
-  width: 100%;
-  height: 100%;
-  color: #001d4f;
+  height: 100vh;
+  width: 100vw;
+  overflow: scroll;
 }
 
 span {
@@ -24,7 +22,7 @@ h3 {
 nav {
   background-color: black;
   margin-bottom: 20px;
-  height: 10%;
+  height: 10vh;
 }
 
 .navbar .nav-link {
@@ -57,7 +55,7 @@ nav {
 
 #welcome-section {
   padding-top: 100px;
-  height: 100%;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -75,7 +73,7 @@ nav {
   justify-content: space-evenly;
 }
 
-#tagline-text {
+#tagline-text, #tagline-list {
   display: flex;
   align-items: center;
 }
@@ -94,12 +92,12 @@ nav {
 }
 
 #headshot {
-  height: 400px;
+  height: 40vh;
   margin-bottom: 20px;
 }
 
 .gif {
-  width: 400px;
+  width: 450px;
   justify-content: center;
 }
 
@@ -108,16 +106,14 @@ nav {
   background-color: #fdbe43;
   flex-direction: column;
   padding-top: 100px;
-  height: 100%;
+  height: 100vh;
   display: flex;
-  justify-content: center;
-  align-items: center;
   overflow: hidden;
 }
 
 #section-intro {
   font-size: 60px;
-  width: 100%;
+  width: 100vw;
 }
 
 #projects-container {
@@ -125,21 +121,20 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  height: 80%;
+  height: 80vh;
 }
 
 .project {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
-  padding: 10px;
+  padding: 30px;
 }
 
 #skills-section {
   background-color: #0092d0;
-  height: 100%;
-  padding: 50px;
+  padding-top: 85px;
+  height: 100vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -147,7 +142,7 @@ nav {
 }
 
 #timeline {
-  height: 80%;
+  height: 80vh;
   display: flex;
   align-items: center;
 }
@@ -158,8 +153,8 @@ nav {
 }
 
 #about-section {
-  height: 80%;
-  padding-top: 20px;
+  height: 80vh;
+  padding-top: 10px;
   background-color: #fff7ec;
   display: flex;
   flex-direction: column;
@@ -167,13 +162,16 @@ nav {
 }
 
 #about-text {
-  width: 50%;
+  width: 50vw;
+  font-family: "JetBrains Mono", monospace;
 }
 
 #family {
-  width: 100%;
+  width: 100vw;
+  height: 50vh;
   max-width: 500px;
   height: auto;
+  margin: 40px;
 }
 
 #footer {
@@ -182,7 +180,7 @@ nav {
   display: flex;
   flex-direction: column;
   align-items: center;
-  height: 10%;
+  height: 10vh;
 }
 #footer a {
   color: white;
@@ -203,4 +201,95 @@ nav {
 #wit-link {
   color: rgb(59, 56, 56);
   text-decoration: underline;
+}
+
+/* iPhone SE */
+
+@media screen and (max-width: 375px) {
+  #welcome-section {
+    height: 100vh;
+    width: 100vw;
+    background-color: pink;
+    overflow: auto;
+  }
+
+  #tagline-container {
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .name-object {
+    font-family: "Bebas Neue", cursive;
+    margin: 10px;
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  #welcome-section {
+    padding-top: 200px;
+    background-color: pink;
+    /* overflow: hidden; */
+  }
+
+  #tagline-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  #projects-section {
+    flex-direction: column;
+    padding-top: 100px;
+    height: 150vh;
+    display: flex;
+    overflow:inherit;
+  }
+  
+  #section-intro {
+    font-size: 60px;
+    height: 20vh;
+    width: 100vw;
+  }
+
+  #projects-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 150vh;
+    overflow: inherit;
+  }
+  
+
+}
+
+@media screen and (max-width: 1508px) {
+
+  #projects-section {
+    flex-direction: column;
+    padding-top: 100px;
+    height: 150vh;
+    display: flex;
+    overflow:inherit;
+  }
+  
+  #section-intro {
+    font-size: 60px;
+    height: 20vh;
+    width: 100vw;
+  }
+
+  #projects-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 150vh;
+    overflow: inherit;
+  }
+  
+
 }
