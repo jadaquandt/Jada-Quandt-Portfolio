@@ -68,7 +68,21 @@
                 <a
                   href="#welcome-section"
                   class="nav-link text-uppercase font-weight-bold"
-                  >Home <span class="sr-only">(current)</span></a
+                  >Home
+                </a>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#projects-section"
+                  class="nav-link text-uppercase font-weight-bold"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="#skills-section"
+                  class="nav-link text-uppercase font-weight-bold"
+                  >Skills</a
                 >
               </li>
               <li class="nav-item">
@@ -76,13 +90,6 @@
                   href="#about-section"
                   class="nav-link text-uppercase font-weight-bold"
                   >About</a
-                >
-              </li>
-              <li class="nav-item">
-                <a
-                  href="#projects-section"
-                  class="nav-link text-uppercase font-weight-bold"
-                  >Portfolio</a
                 >
               </li>
             </ul>
@@ -97,17 +104,19 @@
         <div id="tagline-container">
           <div id="tagline-text">
             <h1 class="name-object">Jada Quandt</h1>
-            <h1 class="name-object">{</h1>
-            <ul class="custom-ul">
-              <li>Front-End Software Engineer</li>
-              <li>
-                Hypewoman/Volunteer for
-                <a id="wit-link" href="https://mywit.org/" target="_blank"
-                  >Women in Tech</a
-                >
-              </li>
-            </ul>
-            <h1 class="name-object">}</h1>
+            <div id="tagline-list">
+              <h1 class="name-object brackets">{</h1>
+              <ul class="custom-ul">
+                <li>Front-End Software Engineer</li>
+                <li>
+                  Hypewoman/Volunteer for
+                  <a id="wit-link" href="https://mywit.org/" target="_blank"
+                    >Women in Tech</a
+                  >
+                </li>
+              </ul>
+              <h1 class="name-object brackets">}</h1>
+            </div>
           </div>
           <div id="headshot-container">
             <img
@@ -159,7 +168,6 @@
             class="gif"
             alt="gif of react"
           />
-          <p>Built with: React.js, Redux, Javascript, CSS, and Material UI</p>
           <div>
             <a
               href="https://github.com/jadaquandt/React-War-in-Space"
@@ -184,10 +192,6 @@
             class="gif"
             alt="gif of gtl"
           />
-          <p>
-            Built with: Bootstrap, JavaScript, RESTful API, Axios, Express,
-            Passport JS
-          </p>
           <div>
             <a
               href="https://github.com/digitalcrafts-atl/Gym-Tan-Laundry"
@@ -212,9 +216,6 @@
             class="gif"
             alt="gif of can my dog eat"
           />
-          <p>
-            Built with: HTML, CSS, Bootstrap, JavaScript, RESTful API, and Axios
-          </p>
           <div>
             <a
               href="https://github.com/jadaquandt/what-can-my-dog-eat"
@@ -239,23 +240,18 @@
       <h3 id="section-intro">Skills</h3>
       <div class="text-center">
         <i class="skills devicon-angularjs-plain" alt="Angular 12"></i>
-        <!-- <i class="skills devicon-bootstrap-plain-wordmark"></i> -->
-        <!-- <i class="skills devicon-css3-plain-wordmark"></i> -->
-        <!-- <i class="skills devicon-express-original-wordmark"></i> -->
-        <!-- <i class="skills devicon-github-plain-wordmark"></i> -->
-        <i class="skills devicon-heroku-original-wordmark" alt="Heroku"></i>
-        <!-- <i class="skills devicon-html5-plain-wordmark"></i> -->
+        <i class="skills devicon-react-original-wordmark" alt="React"></i>
+        <i class="skills devicon-ionic-original-wordmark" alt="Ionic"></i>
         <i class="skills devicon-javascript-plain" alt="JavaScript"></i>
+        <i class="skills devicon-typescript-plain" alt="Typescript"></i>
+        <i class="skills devicon-java-plain-wordmark" alt="Java"></i>
         <i class="skills devicon-nodejs-plain-wordmark" alt="Node"></i>
         <i class="skills devicon-npm-original-wordmark" alt="NPM"></i>
-        <!-- <i class="skills devicon-photoshop-line"></i> -->
+        <i class="skills devicon-heroku-original-wordmark" alt="Heroku"></i>
         <i
           class="skills devicon-postgresql-plain-wordmark"
           alt="Postgresql"
         ></i>
-        <i class="skills devicon-react-original-wordmark" alt="React"></i>
-        <!-- <i class="skills devicon-sequelize-plain-wordmark"></i> -->
-        <i class="skills devicon-typescript-plain" alt="Typescript"></i>
       </div>
       <div id="timeline">
         <ul class="custom-ul">
@@ -322,8 +318,7 @@
       </div>
       <p>&copy; Jada Quandt</p>
     </footer>
-    <!-- My JS File
-<script src="index.js"></script> -->
+    <!-- Bootstrap JS files -->
     <!-- Bootstrap JS files -->
     <script
       src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -340,5 +335,7 @@
       integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
       crossorigin="anonymous"
     ></script>
+    <!-- My JS File -->
+    <script src="index.js"></script>
   </body>
 </html>
